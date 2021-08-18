@@ -15,4 +15,4 @@ const findKthSmallest = (array, k) => {
 	return array[k - 1];
 };
 console.log("Kth smallest element:", findKthSmallest(nums, 3));
-// Output : Kth smallest element is 7
+// Output : Kth smallest element: 7
