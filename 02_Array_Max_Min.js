@@ -8,8 +8,8 @@
 
 const nums = [5, 458, 120, -215, 228, 400, 122205, -85411];
 
-const max = (arr) => Math.max.apply(Math, arr);
-const min = (arr) => Math.min.apply(Math, arr);
+const max = (nums) => Math.max.apply(Math, nums);
+const min = (nums) => Math.min.apply(Math, nums);
 
 console.log("Maximum Element is", max(nums));
 console.log("Minimum Element is", min(nums));
